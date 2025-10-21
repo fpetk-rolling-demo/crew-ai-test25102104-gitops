@@ -35,11 +35,6 @@ spec:
                 secretKeyRef:
                   name: crewai-secrets
                   key: API_KEY
-            - name: 
-              valueFrom:
-                secretKeyRef:
-                  name: 
-                  key: ports:
           ports:
             - containerPort: 8501
           securityContext:
