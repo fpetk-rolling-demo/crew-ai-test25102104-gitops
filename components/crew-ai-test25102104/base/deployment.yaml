@@ -40,6 +40,7 @@ spec:
                 secretKeyRef:
                   name: 
                   key: ports:
+          ports:
             - containerPort: 8501
           securityContext:
             runAsNonRoot: true
